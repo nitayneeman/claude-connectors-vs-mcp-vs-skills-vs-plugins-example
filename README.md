@@ -22,11 +22,7 @@ docker compose up -d
 
 Then run `claude` in the repo and approve the `db` server from `.mcp.json`. Now we can ask Claude something like "Which posts aren't published yet?".
 
-To trigger the skill directly:
-
-```
-/release-notes
-```
+The `release-notes` skill works on merged pull requests, so it's meant for a repo of our own. Copying `.claude/skills/release-notes/` there lets us trigger it directly with `/release-notes`.
 
 To install the plugin:
 
