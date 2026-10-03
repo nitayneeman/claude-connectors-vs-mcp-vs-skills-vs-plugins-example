@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "db": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["-y", "@bytebase/dbhub", "--dsn", "postgres://reader:reader@localhost:5433/dev?sslmode=disable"],
+      "env": {}
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "name": "blog-tools",
+  "version": "1.0.0",
+  "description": "Notion MCP server and a skill that knows how the blog database is structured.",
+  "author": {
+    "name": "Nitay Neeman"
+  }
+}
